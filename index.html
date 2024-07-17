@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Image <span style="color: #ff3929;">Gallery</span></h1>
+    <div class="search-container">
+      <input
+        type="text"
+        id="search-box"
+        placeholder="Search Images"
+        style="
+          border-radius: 50px;
+          outline: none;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+            rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+            rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            padding-left: 15px;
+        "
+      />
+    </div>
+    <div class="image-gallery" id="image-gallery"></div>
+
+    <script src="script.js"></script>
+    <script async src="https://unpkg.com/unsplash-js@3.0.0/dist/unsplash.min.js"></script>
+  </body>
+</html>
